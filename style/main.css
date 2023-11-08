@@ -1,0 +1,233 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Mulish', sans-serif;
+	
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a,
+ul,
+ol {
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
+header {
+	padding-top: 141px;
+	padding-bottom: 85px;
+}
+
+header .header_inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .header_inner .header_logo {}
+
+header .header_inner .header_logo img {
+	width: 160px;
+	height: 41px;
+	object-fit: contain;
+}
+
+header .header_inner .header_links {}
+
+header .header_inner .header_links ul {
+	display: flex;
+	align-items: center;
+}
+
+header .header_inner .header_links ul li {
+	margin-right: 40px;
+}
+
+header .header_inner .header_links ul li:last-child {
+	margin-right: 0px;
+}
+
+header .header_inner .header_links a {
+	color:  #1F1534;
+	font-family: Mulish;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	opacity: 0.5;
+	transition: all ease 0.5s;
+}
+
+header .header_inner .header_links a:hover {
+	opacity: 1;
+}
+
+main {}
+
+main section .intro {
+	padding-bottom: 171px;
+}
+
+.intro .intro_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.intro .intro_inner .intro_desc {
+	width: 466px;
+}
+
+.intro .intro_inner .intro_desc .title {
+	color: #000;
+	font-family: Mulish;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 56px;
+	margin-bottom: 25px;
+}
+
+.intro .intro_inner .intro_desc .subtitle {
+	color: #7D7987;
+	font-family: Mulish;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 32px;
+	margin-bottom: 48px;
+}
+
+.intro .intro_inner .intro_desc .consult {
+	color: #FFF;
+	font-family: Mulish;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 60px;
+	border-radius: 55px;
+	background: #458FF6;
+	padding: 20px 40px;
+}
+
+.intro .intro_inner .intro_icon {}
+
+.intro .intro_inner .intro_icon img {
+	width: 693px;
+	height: 598px;
+	object-fit: contain;
+}
+
+.service_block {
+	padding-top: 171px;
+	
+}
+
+.service_block .service_block_inner {}
+
+.service_block .service_block_inner .service_block_text {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.service_block .service_block_inner .service_block_text .title {
+	color: #000;
+	font-family: Mulish;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 56px;
+	text-align: center;
+	margin-bottom: 61px;
+
+}
+
+.service_block .service_block_inner .service_block_text .subtitle {
+
+	color: #7D7987;
+	text-align: center;
+	font-family: Mulish;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 68px;
+
+}
+
+.service_block .service_block_inner .service_block_card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1108px;
+	margin-bottom: 71px;
+}
+
+.service_block .service_block_inner .service_block_card .service_block_cards {
+	width: 350px;
+	height: 354px;
+	padding: 62px 52px 47px 37px;
+	box-sizing: border-box;
+	background-color: #FFF;
+	filter: drop-shadow(10px 40px 50px rgba(229, 233, 246, 0.40));
+	margin-bottom: 37px;
+	border-radius: 20px;
+}
+
+.service_block .service_block_inner .service_block_card .service_block_cards img {
+	width: 61.857px;
+	height: 85px;
+	object-fit: contain;
+	margin-bottom: 21px;
+}
+
+.service_block .service_block_inner .service_block_card .service_block_cards .title {
+	color: #000;
+	font-family: Mulish;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 56px;
+	margin-bottom: 10px;
+}
+
+.service_block .service_block_inner .service_block_card .service_block_cards .subtitle {
+	color: #7D7987;
+	font-family: Mulish;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+}
+
+.service_block .service_block_inner .learn_more {
+	display: flex;
+	justify-content: center;
+}
+
+.service_block .service_block_inner .learn_more .learn_btn {
+	color: #458FF6;
+	display: inline-block;
+	font-family: Mulish;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 60px;
+	padding: 3px 35px;
+	border-radius: 55px;
+	border: 1.4px solid #458FF6;
+	
+}
